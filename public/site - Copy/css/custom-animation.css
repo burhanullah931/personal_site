@@ -1,0 +1,321 @@
+/* HERO ANIMATIONS */
+
+.profile-img::after {
+    content: '';
+    background-image: url(../img/profile-img/dots.png);
+    position: absolute;
+    width: 251px;
+    height: 213px;
+    bottom: 180px;
+    left: -33px;
+    transform: translatey(0px);
+    animation: float 4s ease-in-out infinite;
+}
+
+.profile-img::before {
+    content: '';
+    background-image: url(../images/fram.png);
+    position: absolute;
+    width: 32vw;
+    background-size: contain;
+    height: 36vw;
+    bottom: -138px;
+    margin: 0 auto;
+    left: 120px;
+    animation: rotating-bg 10s ease-in-out infinite;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes rotating-bg {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.profile-img-2 {
+    position: relative;
+    z-index: 1;
+    animation: float 7s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate( 4deg);
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate( 4deg);
+    }
+}
+
+.img-2 {
+    left: 23%;
+    top: 3%;
+    z-index: 111;
+    animation: zoom 5s ease-in-out infinite;
+}
+
+.img-1 {
+    top: 25%;
+    z-index: 11;
+    animation: zoom 7s ease-in-out infinite;
+    left: 11%;
+}
+
+.img-3 {
+    left: 8%;
+    top: 56%;
+    animation: zoom 9s ease-in-out infinite;
+    -moz-animation: zoom 8s ease-in-out infinite;
+    -webkit-animation: zoom 8s ease-in-out infinite;
+    -o-animation: zoom 8s ease-in-out infinite;
+}
+
+.img-4 {
+    left: 81px;
+    top: 73%;
+    z-index: 11;
+    animation: shake 10s ease-in-out infinite;
+    -moz-animation: shake 10s ease-in-out infinite;
+    -webkit-animation: shake 10s ease-in-out infinite;
+    -o-animation: shake 10s ease-in-out infinite;
+}
+
+.img-5 {
+    bottom: -4%;
+    right: 17%;
+    z-index: 111111;
+    animation: zoom 10s ease-in-out infinite;
+    -moz-animation: zoom 10s ease-in-out infinite;
+    -webkit-animation: zoom 10s ease-in-out infinite;
+    -o-animation: zoom 10s ease-in-out infinite;
+}
+
+.img-6 {
+    top: -2%;
+    right: 6%;
+    z-index: 111111;
+    animation: zoom 6s ease-in-out infinite;
+    -moz-animation: zoom 6s ease-in-out infinite;
+    -webkit-animation: zoom 6s ease-in-out infinite;
+    -o-animation: zoom 6s ease-in-out infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(15px, 0);
+    }
+    50% {
+        transform: translate(-10px, 0);
+    }
+    100% {
+        transform: translate(15px, 0);
+    }
+}
+
+@-moz-keyframes shake {
+    0% {
+        -moz-transform: translate(15px, 0);
+    }
+    50% {
+        -moz-transform: translate(-10px, 0);
+    }
+    100% {
+        -moz-transform: translate(15px, 0);
+    }
+}
+
+@-webkit-keyframes shake {
+    0% {
+        -webkit-transform: translate(15px, 0);
+    }
+    50% {
+        -webkit-transform: translate(-10px, 0);
+    }
+    100% {
+        -webkit-transform: translate(15px, 0);
+    }
+}
+
+@-ms-keyframes shake {
+    0% {
+        -ms-transform: translate(15px, 0);
+    }
+    50% {
+        -ms-transform: translate(-10px, 0);
+    }
+    100% {
+        -ms-transform: translate(15px, 0);
+    }
+}
+
+@-o-keyframes shake {
+    0% {
+        -o-transform: translate(15px, 0);
+    }
+    50% {
+        -o-transform: translate(-10px, 0);
+    }
+    100% {
+        -o-transform: translate(15px, 0);
+    }
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@-ms-keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@-o-keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .img-2 {
+        max-width: 43%;
+    }
+    .img-3 {
+        right: 13%;
+        max-width: 30%;
+    }
+    .img-4 {
+        right: 6%;
+    }
+    .img-6 {
+        right: 3%;
+    }
+}
+
+.float-animation {
+    position: relative;
+    z-index: 1;
+    animation: float-animation 3s ease-in-out infinite;
+    -moz-animation: float-animation 3s ease-in-out infinite;
+    -webkit-animation: float-animation 3s ease-in-out infinite;
+    -o-animation: float-animation 3s ease-in-out infinite;
+}
+
+@keyframes float-animation {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-15px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+@-webkit-keyframes float-animation {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-15px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+@-ms-keyframes float-animation {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-15px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+@-o-keyframes float-animation {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-150px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+.zoom-effect .zoom {
+    transition: transform 1.2s;
+}
+
+.zoom-effect:hover .zoom {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+@media screen and (max-width:996px) {
+    .img-4 {
+        right: -8px;
+        width: 17%;
+    }
+}

@@ -1,0 +1,1622 @@
+/* Start Header Section*/
+
+#home-page {
+	background: #2667f8;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#header {
+	width: 100%;
+	background: #1c4cb8;
+	z-index: 1;
+}
+
+#header .phn-no .fa-phone {
+	font-size: 15px;
+	border: 1px solid white;
+	border-radius: 50px;
+	padding: 9px;
+	margin-right: 10px;
+	transform: rotate(90deg);
+}
+
+#header .phn-no h3 {
+	color: white;
+	font-family: Open Sans;
+	font-weight: 400;
+	margin-top: 40px;
+}
+
+#header .get-started-btn .btn-default {
+	background-color: transparent;
+	color: white;
+	font-family: Montserrat;
+	font-size: 20px;
+	padding: 10px 23px 10px 29px;
+	margin-top: 27px;
+	border: 2px solid white;
+}
+
+/* Start NavBar */
+
+#header .navbar-inverse {
+	background-image: none;
+	background-color: transparent;
+	border-bottom: 1px solid #585858;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	padding: 0px 0px 25px 0px;
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+
+#header .navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+	border: none;
+}
+
+#header .navbar-inverse .navbar-nav>li>a {
+	color: white;
+	font-family: Open Sans;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 15px 16px;
+}
+
+#header .search {
+	width: 0px;
+	text-align: center;
+	padding-right: 50px;
+	border-radius: 5px;
+}
+
+#header .input {
+	border: none;
+	background: #fffffffa;
+	width: 0%;
+	padding: 5px 0;
+	outline: none;
+	color: #000;
+	font-weight: bold;
+	transition: all 0.3s ease;
+	margin-top: 10px;
+}
+
+#header .search .fa {
+	color: white;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	font-size: 22px;
+}
+
+#header .search.active {
+	width: 250px;
+}
+
+#header .input.active {
+	width: 98%;
+	padding-left: 5px;
+	margin-top: 11px;
+}
+
+#header input::placeholder {
+	color: #000000;
+}
+
+.navbar-right {
+	margin-top: 12px;
+}
+
+/* End NavBar */
+
+.header-title h1 {
+	color: white;
+	font-size: 40px;
+	font-family: Poppins;
+	font-weight: 700;
+	line-height: 70px;
+	padding: 60px 0;
+}
+
+.header-title p {
+	color: white;
+	margin-top: 20px;
+	font-size: 16px;
+	font-family: Poppins;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+.header-title .btn-default {
+	background-color: #2667f8;
+	color: white;
+	font-family: Montserrat;
+	font-size: 21px;
+	padding: 15px 30px 15px 30px;
+	margin: 35px 0px 90px 0px;
+	border: none;
+}
+
+.fa-long-arrow-alt-right {
+	margin-left: 30px;
+}
+
+/* End Header Section */
+
+/* Start LinkedIn Profile Section */
+
+#linkedin-profile {
+	margin-top: 100px;
+}
+
+#linkedin-profile .linkedin-img {
+	text-align: center;
+	padding: 50px;
+}
+
+#linkedin-profile img {
+	width: 450px;
+	box-shadow: 0 10px 36px 0px #a4a4a4;
+}
+
+#linkedin-profile h2 {
+	font-size: 24px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	line-height: 38px;
+	text-transform: uppercase;
+}
+
+#linkedin-profile p {
+	color: #5b5b5c;
+	font-size: 14px;
+	font-family: Poppins;
+	line-height: 30px;
+}
+
+/* End LinkedIn Profile Section */
+
+/* Start Express Yourself Section */
+
+#express-yourself {
+	margin-top: 100px;
+	padding: 100px 120px;
+	background-color: #2C457D;
+}
+
+#express-yourself .express-img {
+	text-align: center;
+	padding: 50px;
+}
+
+#express-yourself h2 {
+	font-size: 24px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: white;
+	line-height: 38px;
+	text-transform: uppercase;
+}
+
+#express-yourself p {
+	color: white;
+	font-size: 14px;
+	font-family: Poppins;
+	line-height: 30px;
+}
+
+/* End Express Yourself Section */
+
+/* Start LinkedIn Profile Section */
+
+#online-search {
+	margin-top: 100px;
+}
+
+#online-search .online-search-img {
+	text-align: center;
+	padding: 120px 50px 0px 0px;
+}
+
+#online-search h2 {
+	font-size: 24px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	line-height: 38px;
+	text-transform: uppercase;
+}
+
+#online-search p {
+	color: #5b5b5c;
+	font-size: 14px;
+	font-family: Poppins;
+	line-height: 30px;
+}
+
+#online-search ul>li {
+	color: black;
+	font-size: 14px;
+	font-family: Poppins;
+	line-height: 30px;
+	font-weight: 700;
+}
+
+/* End LinkedIn Profile Section */
+
+/* Start Personal Site Section */
+
+#personalsite {
+	margin-top: 100px;
+	background-color: #f1f1f1;
+	padding: 100px 0;
+}
+
+#personalsite h1 {
+	font-size: 24px;
+	line-height: 36px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+#personalsite p {
+	color: #5b5b5c;
+	font-size: 15px;
+	font-family: Poppins;
+	line-height: 30px;
+	
+	text-align: left;
+}
+
+#personalsite p>span {
+	color: #000000;
+	font-size: 18px;
+	font-weight: 700;
+	font-family: Poppins;
+	line-height: 30px;
+	text-align: left;
+}
+
+/* End Personal Site Section */
+
+/* Start Google Search Section */
+
+#google-search {
+	margin-top: 100px;
+}
+
+#google-search .google-search-img {
+	text-align: center;
+}
+
+#google-search h2 {
+	font-size: 24px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	line-height: 38px;
+	text-transform: uppercase;
+}
+
+#google-search p {
+	color: #5b5b5c;
+	font-size: 14px;
+	font-family: Poppins;
+	line-height: 30px;
+}
+
+/* End Google Search Section */
+
+/* Start Security Section */
+
+#security {
+	margin-top: 100px;
+}
+
+#security .security-img {
+	text-align: center;
+}
+
+#security h2 {
+	font-size: 24px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	line-height: 38px;
+	text-transform: uppercase;
+}
+
+#security p {
+	color: #5b5b5c;
+	font-size: 14px;
+	font-family: Poppins;
+	line-height: 30px;
+}
+
+/* End Security Section */
+
+/* Start central hub Section */
+
+#central-hub {
+	margin-top: 100px;
+}
+
+#central-hub .central-hub-img {
+	text-align: center;
+}
+
+#central-hub h2 {
+	font-size: 24px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	line-height: 38px;
+	text-transform: uppercase;
+}
+
+#central-hub p {
+	color: #5b5b5c;
+	font-size: 14px;
+	font-family: Poppins;
+	line-height: 30px;
+}
+
+/* End Central hub Section */
+
+/* Start last-thought Section */
+
+#last-thought {
+	margin-top: 100px;
+	background-color: #f1f1f1;
+	padding: 100px 0;
+}
+
+#last-thought h1 {
+	font-size: 34px;
+	line-height: 36px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#last-thought p {
+	color: #5b5b5c;
+	font-size: 20px;
+	font-family: Poppins;
+	line-height: 36px;
+	padding: 0px 70px;
+	text-align: center;
+}
+
+/* End Personal Site Section */
+
+
+
+/* new-opportunities */
+#new-opportunities {
+	
+	padding: 50px 120px 0px 120px;
+	background-color:#2667f8;
+}
+
+#new-opportunities .new-opportunities-img {
+	text-align: center;
+	padding: 0px 50px 0px 50px; 
+}
+#new-opportunities .text {
+	padding:100px 0px 0px 0px;
+}
+
+#new-opportunities h2 {
+	font-size: 30px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: white;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+#new-opportunities p {
+	color: #eaeaea;
+    font-size: 18px;
+    font-family: Poppins;
+    line-height: 36px;
+}
+
+/* End New Opportunities Section */
+/* Start Resume Section*/
+
+#resume {
+	margin-top: 100px;
+}
+
+#resume .resume-img {
+	text-align: center;
+}
+
+
+#resume h3 {
+	font-size: 24px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	line-height: 38px;
+	text-transform: uppercase;
+	
+}
+
+#resume p {
+	font-size: 15px;
+	line-height: 28px;
+	font-family: poppins;
+	color: #5b5b5c;
+}
+
+
+/* End Resume Section*/
+
+/* Start Next Caree Section */
+
+#next-career {
+	margin-top: 100px;
+	background-color: #eef9ff;
+	padding: 100px 0;
+}
+
+#next-career h1 {
+	font-size: 24px;
+	line-height: 36px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+#next-career p {
+	color: #5b5b5c;
+	font-size: 15px;
+	font-family: Poppins;
+	line-height: 30px;
+	
+	text-align: left;
+}
+
+#next-career p>span {
+	color: #000000;
+	font-size: 18px;
+	font-weight: 700;
+	font-family: Poppins;
+	line-height: 30px;
+	text-align: left;
+}
+
+/* End Next Career Section */
+
+
+/* Resume Website */
+#resume-website {
+	
+	padding: 80px 0px 80px 0px;
+	background-color:#2667f8;
+}
+
+#resume-website h2 {
+	font-size: 30px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: white;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+#resume-website p {
+	color: #eaeaea;
+    font-size: 18px;
+    font-family: Poppins;
+    line-height: 36px;
+}
+
+/* End Resume Website Section */
+
+/* Start Resume Section*/
+
+#website-features {
+	margin-top: 100px;
+}
+
+#website-features .website-features-img {
+	text-align: center;
+	padding-top: 60px;
+}
+
+
+#website-features h3 {
+	font-size: 24px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	line-height: 38px;
+	text-transform: uppercase;
+	
+}
+
+#website-features p {
+	font-size: 15px;
+	line-height: 28px;
+	font-family: poppins;
+	color: #5b5b5c;
+}
+
+#website-features .btn-default {
+	background-color: #2667f8;
+	color: white;
+	font-family: poppins;
+	font-size: 15px;
+	padding: 12px 20px 12px 20px;
+	margin: 10px 0px 90px 0px;
+	border: none;
+}
+#website-features .contact-form-sales {
+	box-shadow: 0 5px 21px 0px #c7c6c6;
+    padding: 40px;
+    border-radius: 10px;
+
+
+}
+
+#website-features .btn-primary {
+	background-color: #55667f;
+	color:white;
+	margin-top: 0px!important;
+	padding: 8px 10px;
+}
+
+
+/* End Resume Section*/
+
+
+
+
+/* Start Job Seekers Section*/
+
+#seekers {
+	margin-top: 100px;
+}
+
+#seekers img {
+	float: right;
+	margin-right: -15px;
+}
+
+#seekers h1 {
+	font-size: 40px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	margin-bottom: 30px;
+	margin-top: 0px;
+}
+
+#seekers h3 {
+	font-size: 24px;
+	font-family: Poppins;
+	font-weight: 600;
+	color: #1a1a1a;
+	margin: 40px 0px;
+	line-height: 40px;
+	border-left: 5px solid black;
+	padding-left: 30px;
+}
+
+#seekers p {
+	font-size: 14px;
+	line-height: 28px;
+	font-family: poppins;
+	color: #5b5b5c;
+}
+
+#seekers .btn-default {
+	background-color: #2667f8;
+	color: white;
+	font-family: Montserrat;
+	font-size: 21px;
+	padding: 15px 30px 15px 30px;
+	margin: 35px 0px 90px 0px;
+	border: none;
+}
+
+/* End Job Seekers Section*/
+
+/* Start Packages Section*/
+
+#packages {
+	margin-top: 100px;
+	background-color: #f5f5f5;
+	padding-bottom: 100px;
+}
+
+#packages h1 {
+	font-size: 48px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	padding-top: 100px;
+	margin-bottom: 70px;
+	text-align: center;
+}
+
+#packages .package-plan {
+	background-color: white;
+	padding: 30px 30px 50px 30px;
+	border: 1px solid #bbc3d5;
+	border-radius: 10px;
+	margin-top: 100px;
+	height: 1070px;
+}
+
+#packages .package-plan1 {
+	background-color: white;
+	padding: 30px 30px 50px 30px;
+	border: 1px solid #bbc3d5;
+	border-radius: 0px 0px 10px 10px;
+	height: 1074px;
+}
+
+#packages h5 {
+	font-size: 24px;
+	font-family: poppins;
+	font-weight: 600;
+	text-align: center;
+	color: black;
+}
+
+#packages h4 {
+	font-size: 32px;
+	font-family: poppins;
+	font-weight: 800;
+	text-align: center;
+	color: black;
+}
+
+#packages p {
+	color: #7b7b7b;
+	font-size: 14px;
+	text-align: center;
+}
+
+#packages .btn-default {
+	background-color: transparent;
+	color: #2667f8;
+	font-family: Montserrat;
+	font-weight: 800;
+	font-size: 21px;
+	padding: 15px 30px 15px 30px;
+	margin: 35px 0px 0px 0px;
+	border: 2px solid #2667f8;
+}
+
+#packages .package-detail ul {
+	padding-left: 0px;
+}
+
+#packages .package-detail .fa-check {
+	padding-right: 20px;
+	font-size: 20px;
+}
+
+#packages .package-detail li {
+	font-size: 15px;
+	line-height: 28px;
+	list-style-type: none;
+	color: #5b5b5c;
+	font-family: Montserrat;
+	margin: 30px 0px;
+}
+
+#packages .popular {
+	background-color: #2667f8;
+	border-radius: 10px 10px 0px 0px;
+	padding: 25px 0px;
+}
+
+#packages .popular h6 {
+	font-family: poppins;
+	font-weight: 600;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}
+
+/* End Packages Section */
+
+/* Start Personal Site Section */
+
+#contact {
+	margin-top: 100px;
+}
+
+#contact h1 {
+	font-size: 48px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	margin-bottom: 30px;
+}
+
+#contact p {
+	color: #5b5b5c;
+	font-size: 16px;
+	font-family: Poppins;
+	line-height: 30px;
+	padding: 0px 100px;
+}
+
+#contact .contact-section {
+	margin-top: 70px;
+}
+
+#contact .contact-form input {
+	width: 100%;
+	font-size: 14px;
+	padding: 10px;
+	margin: 15px;
+	font-family: poppins;
+}
+
+#contact .btn-default {
+	background-color: transparent;
+	color: #2667f8;
+	font-family: Montserrat;
+	font-weight: 800;
+	font-size: 21px;
+	padding: 15px 65px 15px 65px;
+	margin: 35px 0px 0px 25px;
+	border: 2px solid #2667f8;
+}
+
+#contact h5 {
+	font-size: 20px;
+	color: black;
+	font-family: poppins;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+#contact h6 {
+	font-size: 12px;
+	color: black;
+	font-family: poppins;
+	line-height: 20px;
+	color: #8f8f8f;
+}
+
+#contact .arrow {
+	margin-top: 35px;
+}
+
+/* End Personal Site Section */
+
+/* Start Templates Section */
+
+#templates {
+	margin-top: 100px;
+	background-color: #f5f5f5;
+	padding-bottom: 100px;
+}
+
+#templates h1 {
+	font-size: 48px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	padding-top: 100px;
+	margin-bottom: 70px;
+	text-align: center;
+}
+
+#templates img {
+	margin-top: 15px;
+}
+
+#templates .btn-default {
+	background-color: #2667f8;
+	color: white;
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 21px;
+	padding: 15px 30px 15px 30px;
+	margin: 40px 0px 0px 0px;
+	border: none;
+}
+
+#templates img {
+	margin: 50px 0px;
+}
+
+/* End Templates Section */
+
+/* Start Additional Features Section*/
+
+#additional-features {
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+#additional-features h1 {
+	font-size: 48px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	margin-bottom: 70px;
+	line-height: 60px;
+}
+
+#additional-features .fa {
+	border: 2px solid #2667f8;
+	padding: 45px;
+	border-radius: 50%;
+	font-size: 45px;
+	color: #2667f8;
+}
+
+#additional-features .fa:hover {
+	background-color: #2667f8;
+	color: white;
+}
+
+#additional-features h3 {
+	font-size: 23px;
+	color: black;
+	font-family: poppins;
+	font-weight: 600;
+	padding: 20px 20px;
+	line-height: 27px;
+}
+
+#additional-features p {
+	color: #5b5b5c;
+	font-family: poppins;
+	font-size: 18px;
+	padding: 0px 25px;
+}
+
+.another-feature {
+	margin-top: 60px;
+}
+
+/* End Additional Features Section */
+
+/* Start Testimonials Section */
+
+#testimonials {
+	margin-top: 100px;
+	background-color: #f5f5f5;
+	padding-bottom: 150px;
+}
+
+#testimonials h1 {
+	font-size: 48px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	padding-top: 100px;
+	margin-bottom: 70px;
+	text-align: center;
+	line-height: 60px;
+}
+
+.carousel-indicators li {
+	border: 1px solid #2667f8;
+}
+
+.carousel-indicators {
+	top: 100%;
+	padding-top: 70px;
+}
+
+.carousel-indicators .active {
+	background: #2667f8;
+}
+
+.fa-quote-left {
+	text-align: center;
+	color: #2667f8;
+	padding-bottom: 25px;
+}
+
+blockquote {
+	padding: 60px 50px;
+	font-size: 16px;
+	line-height: 30px;
+	font-family: poppins;
+	border-left: none;
+	background: white;
+	text-align: left;
+	border: 2px solid #b8b7b7;
+}
+
+.testi-cntnt h4 {
+	font-size: 19px;
+	color: black;
+	font-family: poppins;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.testi-cntnt p {
+	font-size: 16px;
+}
+
+.testi-cntnt .fab {
+	color: white;
+	background-color: #2667f8;
+	border-radius: 45%;
+	padding: 12px;
+}
+
+.testi-cntnt li {
+	list-style-type: none;
+	display: inline;
+}
+
+.testi-cntnt ul {
+	padding-left: 0px;
+}
+
+/* End Testimonials Section */
+
+/* Start Footer Section */
+
+#footer {
+	background-color: #2c457d;
+	padding-bottom: 70px;
+}
+
+#footer h1 {
+	padding-top: 70px;
+	font-size: 48px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: white;
+}
+
+#footer p {
+	padding-top: 20px;
+	font-size: 18px;
+	font-family: Poppins;
+	color: white;
+}
+
+#footer h3 {
+	color: white;
+	margin-top: 80px;
+}
+
+#footer .fa-phone {
+	font-size: 15px;
+	border: 1px solid white;
+	border-radius: 50px;
+	padding: 9px;
+	margin-right: 10px;
+	color: white;
+	transform: rotate(90deg);
+}
+
+#footer input {
+	width: 61%;
+	font-size: 14px;
+	padding: 10px;
+	margin-top: 15px;
+	font-family: poppins;
+	border-radius: 5px;
+	border-color: white;
+}
+
+#footer .btn-default {
+	background-color: #2667f8;
+	color: white;
+	font-family: Montserrat;
+	font-size: 15px;
+	padding: 13px 65px 13px 65px;
+	border: none;
+	margin: 20px 0px;
+}
+
+/* End Footer Section */
+
+/* FAQ's Page Start */
+
+#faqs {
+	background: url('../images/faq-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px;
+	background-position: center top;
+	padding-bottom: 150px;
+}
+
+#faq-questions {
+	padding: 100px 0px;
+}
+
+#faq-questions h1 {
+	color: #6c6d6f;
+	font-family: Poppins;
+	font-weight: 600;
+	font-size: 38px;
+}
+
+#faq-questions .h3style {
+	color: black;
+	margin-top: 30px;
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+#faq-questions p {
+	color: #6c6d6f;
+	margin-top: 20px;
+	line-height: 28px;
+	font-family: Poppins;
+	font-weight: 500;
+}
+
+dl.accordion dt:before {
+	content: '';
+	transition: all 0.3s;
+	font-family: 'Arial', sans-serif;
+	margin-right: 0.55em;
+	margin-left: -1.3em;
+	width: 0.5em;
+	height: 0.5em;
+	display: inline-block;
+	box-shadow: 0.15em 0.15em 0 #b1b7c3;
+	-webkit-transform: translateY(-0.35em) rotate(-45deg);
+	-ms-transform: translateY(-0.35em) rotate(-45deg);
+	transform: translateY(-0.35em) rotate(-45deg);
+	-webkit-transform-origin: bottom right;
+	-ms-transform-origin: bottom right;
+	transform-origin: bottom right;
+}
+
+dl.accordion dt.open:before {
+	-webkit-transform: translateY(-0.35em) rotate(45deg);
+	-ms-transform: translateY(-0.35em) rotate(45deg);
+	transform: translateY(-0.35em) rotate(45deg);
+}
+
+dl.accordion {
+	border-bottom: 1px solid gray;
+	padding-bottom: 30px;
+}
+
+/* FAQ's Page End */
+
+/* Contact Us Page Start */
+
+#contact-us-page {
+	background: url('../images/Contact-page.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px;
+	background-position: center top;
+	padding-bottom: 300px;
+}
+
+.contact-page-form {
+	padding: 30px 20px 70px 20px;
+	margin: 10px 0px;
+	background: white;
+	box-shadow: 0px 5px 12px 1px grey;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.contact-page-form input {
+	margin-top: 5px;
+	width: 100%;
+	padding: 7px;
+	border: 1px solid #d5d7da;
+}
+
+.contact-page-form textarea {
+	margin-top: 5px;
+	width: 100%;
+	padding: 7px;
+	border: 1px solid #d5d7da;
+}
+
+.contact-page-form label {
+	margin-top: 10px;
+	font-weight: 500;
+	font-family: Open Sans Regular;
+}
+
+.contact-page-form ::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	color: #a8a9aa;
+}
+
+.contact-page-form p {
+	color: #5b5b5c;
+}
+
+.contact-page-form .btn-default {
+	background-color: #2667f8;
+	color: white;
+	font-family: Montserrat;
+	font-size: 18px;
+	padding: 11px 23px 11px 23px;
+	border: none;
+	margin-left: 21px;
+}
+
+.contact-page-detail {
+	padding: 30px 20px;
+	margin: 10px 0px;
+	color: white;
+	background: #2667f8;
+	border-radius: 0px 5px 5px 0px;
+	height: 597px;
+}
+
+.form-and-detail {
+	top: -170px;
+}
+
+.contact-page-detail h4 {
+	font-weight: 600;
+	font-family: poppins;
+}
+
+.contact-page-detail a {
+	color: white;
+	font-size: 18px;
+	font-family: poppins;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+.contact-page-detail p {
+	margin-bottom: 30px;
+	font-size: 13px;
+	font-family: poppins;
+}
+
+.contact-page-detail .fa-phone {
+	transform: rotate(90deg);
+}
+
+.contact-page-social-icon .fab:hover {
+	color: blue;
+}
+
+/* Contact Us Page End */
+
+/* Subscription Page Start */
+
+#subscription-page {
+	background: url('../images/Subscription-page-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px;
+	background-position: center top;
+	padding-bottom: 300px;
+}
+
+/* Start Subscription Packages Section*/
+
+#subs-packages {
+	margin-top: -280px;
+	padding-bottom: 100px;
+}
+
+#subs-packages h1 {
+	font-size: 48px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	padding-top: 100px;
+	margin-bottom: 70px;
+	text-align: center;
+}
+
+#subs-packages .package-plan {
+	background-color: white;
+	padding: 30px 30px 50px 30px;
+	border: 1px solid #bbc3d5;
+	border-radius: 10px;
+	margin-top: 100px;
+	height: 1070px;
+}
+
+#subs-packages .package-plan1 {
+	background-color: white;
+	padding: 30px 30px 50px 30px;
+	border: 1px solid #bbc3d5;
+	border-radius: 0px 0px 10px 10px;
+	height: 1074px;
+}
+
+#subs-packages h5 {
+	font-size: 24px;
+	font-family: poppins;
+	font-weight: 600;
+	text-align: center;
+	color: black;
+}
+
+#subs-packages h4 {
+	font-size: 32px;
+	font-family: poppins;
+	font-weight: 800;
+	text-align: center;
+	color: black;
+}
+
+#subs-packages p {
+	color: #7b7b7b;
+	font-size: 14px;
+	text-align: center;
+}
+
+#subs-packages .btn-default {
+	background-color: transparent;
+	color: #2667f8;
+	font-family: Montserrat;
+	font-weight: 800;
+	font-size: 21px;
+	padding: 15px 30px 15px 30px;
+	margin: 35px 0px 0px 0px;
+	border: 2px solid #2667f8;
+}
+
+#subs-packages .package-detail ul {
+	padding-left: 0px;
+}
+
+#subs-packages .package-detail .fa-check {
+	padding-right: 20px;
+	font-size: 20px;
+}
+
+#subs-packages .package-detail li {
+	font-size: 15px;
+	line-height: 28px;
+	list-style-type: none;
+	color: #5b5b5c;
+	font-family: Montserrat;
+	margin: 30px 0px;
+}
+
+#subs-packages .popular {
+	background-color: #2667f8;
+	border-radius: 10px 10px 0px 0px;
+	padding: 25px 0px;
+}
+
+#subs-packages .popular h6 {
+	font-family: poppins;
+	font-weight: 600;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}
+
+/* End Subscription Packages Section */
+
+#premiun-plan {
+	padding-bottom: 100px;
+}
+
+#premiun-plan h1 {
+	font-size: 48px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	margin-bottom: 100px;
+}
+
+#premiun-plan p {
+	color: black;
+	font-size: 17px;
+	font-family: Poppins;
+	margin-top: 20px;
+}
+
+#trusted-executives {
+	padding-top: 100px;
+	background: #f5f5f5;
+	padding-bottom: 100px;
+}
+
+#trusted-executives h1 {
+	font-size: 48px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	margin-bottom: 100px;
+}
+
+.trust-box {
+	background: white;
+	padding: 30px 15px;
+	height: 200px;
+	margin-top: 10px;
+}
+
+.trust-box p {
+	color: #5b5b5c;
+}
+
+.trust-box h5 {
+	color: #5b5b5c;
+	font-family: poppins;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 30px;
+	margin-top: 15px;
+}
+
+#faq-questions-subs {
+	padding: 100px 0px;
+}
+
+#faq-questions-subs h1 {
+	color: #6c6d6f;
+	font-family: Poppins;
+	font-weight: 600;
+	font-size: 38px;
+}
+
+#faq-questions-subs .h3style {
+	color: black;
+	margin-top: 30px;
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+#faq-questions-subs p {
+	color: #6c6d6f;
+	margin-top: 20px;
+	line-height: 28px;
+	font-family: Poppins;
+	font-weight: 500;
+}
+
+#faq-questions-subs dl.accordion {
+	border-bottom: none;
+	padding-bottom: 0px;
+}
+
+/* Subscription Page End */
+
+/* Requirement Page Start */
+
+#requirement-page {
+	background: url('../images/Requirement-Formbg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#requirement-page h1 {
+	padding: 40px 0px 120px 0px;
+}
+
+#requirement h1 {
+	font-size: 34px;
+	margin-top: 70px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	margin-bottom: 30px;
+}
+
+#requirement p {
+	color: #5b5b5c;
+	font-size: 16px;
+	font-family: Poppins;
+	line-height: 30px;
+	margin-bottom: 50px;
+}
+
+.need-help {
+	border: 1px solid #d5d7da;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+.need-help .fas {
+	color: #d5d7da;
+	height: 45px;
+	color: #d5d7da;
+	border-right: 2px solid;
+	padding-right: 30px;
+	margin-top: 12px;
+}
+
+.need-help h4 {
+	margin-left: 20px;
+	color: #5b5b5c;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.need-help a {
+	color: #2667f8;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#requirement-form h2 {
+	font-size: 28px;
+	font-family: poppins;
+	font-weight: 800;
+	color: black;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+#requirement-form input {
+	width: 100%;
+	margin-top: 5px;
+	padding: 7px;
+	border: 1px solid #d5d7da;
+}
+
+#requirement-form textarea {
+	margin-top: 5px;
+	width: 100%;
+	padding: 7px;
+	border: 1px solid #d5d7da;
+}
+
+#requirement-form h3 {
+	margin-top: 10px;
+	font-weight: 600;
+	font-family: poppins;
+	font-size: 15px;
+	width: 74%;
+	line-height: 26px;
+	margin-bottom: 0px;
+}
+
+.btn-primary {
+	background: transparent;
+	color: #a5a7a9;
+	border-color: #a5a7a9;
+	padding: 13px 10px;
+	margin-top: 30px !important;
+}
+
+.glyphicon {
+	margin-right: 15px !important;
+	margin-left: 10px !important;
+	font-size: 21px;
+}
+
+.buttonText {
+	font-weight: 400;
+	font-size: 21px;
+	margin-right: 10px;
+}
+
+.btn-primary .badge {
+	color: white;
+	background-color: #2c457d;
+	top: -3px;
+}
+
+#requirement-form input[type=checkbox] {
+	width: auto;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+#requirement-form input[type=file] {
+	width: auto;
+}
+
+.social-link-p {
+	margin: 0px 0px 5px 0px;
+	color: #057dc2;
+}
+
+.requirement-add-btn {
+	background-color: #2667f8;
+	color: white;
+	font-family: Montserrat;
+	font-size: 21px;
+	padding: 15px 30px 15px 30px;
+	margin: 35px 0px 20px 0px;
+	border: none;
+	float: right;
+}
+
+#requirement-form h5 {
+	font-size: 18px;
+	font-weight: 800;
+	font-family: poppins;
+	margin-bottom: 0px;
+	margin-top: 20px;
+	color: black;
+}
+
+.submit-btn {
+	background-color: #2667f8;
+	color: white;
+	font-family: Montserrat;
+	font-size: 21px;
+	padding: 15px 30px 15px 30px;
+	margin: 35px 0px 20px 0px;
+	border: none;
+}
+
+/* Requirement Page End */
+
+/* About Us Page Start */
+
+#about-page {
+	background: url('../images/about-bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#seekers h2 {
+	font-size: 32px;
+	font-family: Poppins;
+	font-weight: 700;
+	color: black;
+	margin-bottom: 30px;
+	margin-top: 0px;
+}
+
+.mission-vision h1 {
+	margin-top: 50px !important;
+}
+
+.about-primary-paragraph {
+	font-size: 15px !important;
+}
+
+/* About Us Page End */
+
+/* Revision Page Start */
+
+#revision-page {
+	background: url('../images/revision-page-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 50px;
+	padding-bottom: 130px;
+}
+
+#requirement-form h4 {
+	margin-top: 10px;
+	font-weight: 700;
+	font-family: poppins;
+	font-size: 24px;
+	width: 74%;
+	line-height: 26px;
+	margin-bottom: 0px;
+	color: black;
+}
+
+/* Revision Page End */

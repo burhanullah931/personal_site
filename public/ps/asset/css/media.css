@@ -1,0 +1,199 @@
+/* Default Size */
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+	.sample{
+
+	}
+
+}
+
+
+/* Medium Size */
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.header-title h1{
+	font-size: 46px;
+	margin-top: 300px;
+	text-align: center;
+}
+.header-title p{
+	margin-top: 20px;
+	font-size: 15px;
+	text-align: center;
+}
+.header-title .btn-default{
+	margin-left: 250px;
+	margin-top: 15px;
+}
+
+#personalsite h1{
+	font-size: 40px
+}
+#consultants h1{
+	font-size: 34px;
+	margin-top: 30px;
+}
+#seekers h1{
+	font-size: 34px;
+}
+#packages h1{
+	font-size: 40px
+}
+#contact h1{
+	font-size: 40px
+}
+#templates h1{
+	font-size: 40px
+}
+#additional-features h1{
+	font-size: 40px
+}
+#testimonials h1{
+	font-size: 40px
+}
+#footer h1{
+	font-size: 40px
+}
+#premiun-plan h1{
+	font-size: 40px
+}
+}
+
+/* Small Size */
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+.header-title h1{
+	font-size: 36px;
+	margin-top: 300px;
+	line-height: 50px;
+	text-align: center;
+}
+.header-title p{
+	margin-top: 15px;
+	font-size: 13px;
+	text-align: center;
+}
+.header-title .btn-default{
+	margin-left: 120px;
+	margin-top: 20px;
+}
+
+#personalsite h1{
+	font-size: 32px
+}
+#consultants h1{
+	font-size: 28px;
+	margin-top: 20px;
+}
+#seekers h1{
+	font-size: 28px;
+}
+#packages h1{
+	font-size: 32px
+}
+#contact h1{
+	font-size: 32px
+}
+#templates h1{
+	font-size: 32px
+}
+#additional-features h1{
+	font-size: 32px
+}
+#testimonials h1{
+	font-size: 32px
+}
+#footer h1{
+	font-size: 32px
+}
+#premiun-plan h1{
+	font-size: 32px
+}
+}
+
+/* Extra Small Size */
+@media only screen and (max-width: 479px) and (min-width: 320px) {
+.header-title h1{
+	font-size: 28px;
+	margin-top: 250px;
+	line-height: 40px;
+	text-align: center;
+}
+.header-title p{
+	margin-top: 10px;
+	font-size: 12px;
+	text-align: center;
+}
+.header-title .btn-default{
+	margin-left: 120px;
+	margin-top: 20px;
+}
+#personalsite h1{
+	font-size: 24px
+}
+#consultants h1{
+	font-size: 20px;
+	margin-top: 15px;
+}
+#seekers h1{
+	font-size: 20px;
+}
+#packages h1{
+	font-size: 24px
+}
+#contact h1{
+	font-size: 24px
+}
+#templates h1{
+	font-size: 24px
+}
+#additional-features h1{
+	font-size: 24px
+}
+#testimonials h1{
+	font-size: 24px
+}
+#footer h1{
+	font-size: 24px
+}
+#premiun-plan h1{
+	font-size: 24px
+}
+}
+
+
+
+
+@media only screen and (max-width: 767px) and (min-width: 300px) {
+	#contact .arrow{
+	display: none;
+
+}
+}
+
+
+/*New */
+@media (min-width: 768px){
+.pb-md-30, .py-md-30 {
+    padding-bottom: 30px!important;
+}
+}
+
+
+@media only screen and (max-width: 600px){
+	#category-tiles{ padding-top:50px}
+	#category-tiles h1{ font-size:24px}
+	#section-feature h1{ font-size:24px; margin-bottom:0}
+	.profile-name{ font-size:30px}
+	#hire-profile-section h2{ font-size:26px;}
+	.skill-btn {padding: 14px 18px 14px 18px; margin: 5px 5px 0 0px; }
+	#hire-cta p { font-size: 14px; }
+	#hire-cta h1 { font-size: 26px; }
+	.border-right { border-right: none; }
+	#consult-page .header-title .btn-default {
+		
+		font-size: 16px;
+		padding: 15px 18px 15px 18px;
+		margin: 35px 0 90px 0;
+		border: none;
+	}
+	#consult-page .header-title{ text-align:center}
+}

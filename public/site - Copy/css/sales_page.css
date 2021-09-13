@@ -1,0 +1,946 @@
+/* ############################# Sales Page ######################### */
+
+.font-poppins-mediumItalic {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: italic;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.f-18 {
+    font-size: 18px;
+}
+
+.font-poppins-medium {
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.font-poppins-semibold {
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.font-poppins-Light {
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.font-poppins-bold {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-22 {
+    font-size: 22px;
+}
+
+.f-28 {
+    font-size: 28px;
+}
+
+.f-74px {
+    font-size: 4vw;
+}
+
+.f-60px {
+    font-size: 2.8vw;
+}
+
+.f-40px {
+    font-size: 2.1vw;
+}
+
+.f-78px {
+    font-size: 3.2vw;
+}
+
+.f-32px {
+    font-size: 32px;
+}
+
+.text-secondary-dark {
+    color: #495057;
+}
+
+.text-secondary-light {
+    color: #898B8D!important;
+}
+
+.hero-p-container-fluid {
+    padding: 0 4.3% 0 4.3%!important;
+}
+
+.section-secondary-space {
+    margin-bottom: 6%;
+}
+
+.color-theme {
+    color: #91BF20;
+}
+
+#hero-intro .sales-button {
+    padding: 1.5% 4%;
+    box-shadow: 0px 4px 7px 0px #10101052;
+}
+
+#gigs {
+    background-color: #F7F7F7;
+    padding: 6% 0;
+}
+
+
+/* #00295E #003E8E */
+
+.bg-linerar-blue {
+    background-image: -moz-linear-gradient(to right, #00295E, #003E8E);
+    background-image: -o-linear-gradient(to right, #00295E, #003E8E);
+    background-image: -webkit-linear-gradient(to right, #00295E, #003E8E);
+    background-image: linear-gradient(to right, #00295E, #003E8E);
+}
+
+.bg-blue {
+    background: #0B1628;
+}
+
+.bg-theme {
+    background-color: #91BF20;
+}
+
+.btn-linear {
+    background-image: -moz-linear-gradient(to right, #003E8E, #00295E);
+    background-image: -o-linear-gradient(to right, #003E8E, #00295E);
+    background-image: -webkit-linear-gradient(to right, #003E8E, #00295E);
+    background-image: linear-gradient(to right, #003E8E, #00295E);
+    padding: 1.5% 5%;
+    border-radius: .8rem;
+}
+
+.bg-s-blue {
+    background-color: #133462;
+}
+
+.bg-f7 {
+    background-color: #F7F7F7;
+}
+
+.bg-headline {
+    background: #FF725E;
+}
+
+.rounded-8rem {
+    border-radius: .8rem;
+}
+
+#hero-Intro .hero-p-container-fluid {
+    padding: 0 4.3% 0 4.3%!important;
+}
+
+.profile-img {
+    max-width: 22vw;
+    margin: 0 auto;
+}
+
+.bg-hero-left {
+    background: url('../images/bg-left.png');
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+
+.hero-body {
+    padding: 5% 0;
+}
+
+#hero-intro {
+    overflow: hidden;
+}
+
+.img-responsive {
+    width: 100%;
+    height: 100%;
+}
+
+.ov-hide {
+    overflow: hidden;
+}
+
+.obj-cover {
+    object-fit: cover;
+}
+
+#hero-intro .form-control {
+    height: 58px;
+    border-radius: .8rem;
+    border-color: white!important;
+    color: #212529!important;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.btn-medium {
+    font-family: 'Poppins';
+    font-weight: '400';
+}
+
+#hero-intro .form-control {
+    height: 58px;
+    border-radius: .8rem;
+    border-color: white!important;
+    color: #212529!important;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.shadow-1 {
+    right: -167px;
+    top: 92px;
+}
+
+.shadow-2 {
+    left: -167px;
+    top: -33px;
+}
+
+.f-24 {
+    font-size: 24px;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background-image: -moz-linear-gradient(to right, #00295E, #003E8E);
+    background-image: -o-linear-gradient(to right, #00295E, #003E8E);
+    background-image: -webkit-linear-gradient(to right, #00295E, #003E8E);
+    background-image: linear-gradient(to right, #00295E, #003E8E);
+    margin-bottom: 10px;
+}
+
+.pos-shape {
+    position: absolute;
+    z-index: -1;
+    right: -63px;
+}
+
+#connect {
+    overflow: hidden;
+}
+
+.graph-pos {
+    position: relative;
+    top: -84px;
+}
+
+.connect-wrap {}
+
+.f-42 {
+    font-size: 2.6vw;
+}
+
+.graph::before {
+    content: '';
+    background-image: url(../images/shape.png);
+    height: 620px;
+    width: 91%;
+    position: absolute;
+    right: -187px;
+    top: 17px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-shadow {
+    background-image: url('../images/bg-content.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.secondary-border {
+    border-left: 2px solid #7C818C;
+}
+
+.secondary-border::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    left: -6px;
+    border-radius: 50%;
+    background-color: #7C818C;
+    position: absolute;
+}
+
+#this_is_why {
+    background-color: #0B1628;
+    padding: 10% 0;
+}
+
+.why_point {
+    list-style: disc;
+    color: #91BF20;
+    font: 24px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+#sales_stats {
+    background-image: url(../images/staats.png);
+    /* background-size: cover; */
+    background-position: center top;
+    padding: 21% 0 6% 0px;
+    background-repeat: no-repeat;
+}
+
+#sales_bonus {
+    background-image: url(../images/bonus.png);
+    background-size: cover;
+    background-position: center top;
+    padding: 6% 0px;
+    background-repeat: no-repeat;
+}
+
+#sales_about {
+    background-image: url(../images/about.png);
+    background-size: cover;
+    background-position: center top;
+    padding: 6% 0px;
+    background-repeat: no-repeat;
+}
+
+.about-bg {
+    background-color: #00000054;
+    padding: 2% 3% 6% 3%;
+}
+
+#sales_about .profile-details .green-line {
+    width: 100px;
+    height: 2px;
+    background-color: #91bf20;
+}
+
+#sales_about .profile-details h1 {
+    font-size: 4vw;
+    font-family: 'g-bold-narrow';
+    color: white;
+    margin-top: 3%;
+}
+
+#sales_about .profile-details .job-title {
+    font-size: 26px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #8E8E8E;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+.section-title {
+    color: #4f56c0;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3rem 0;
+}
+
+@media (max-width: 767px) {
+    .section-title {
+        /* portrait && landscape */
+        font-size: 2.6rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .section-title {
+        /* tablets && small laptops */
+    }
+}
+
+#faq {
+    padding: 0 0 10rem;
+    margin-top: 10%;
+}
+
+#faq .accordion .card {
+    border: 0.1rem solid #c4c4c400;
+    border-radius: 0;
+    overflow: hidden;
+    margin: 0 0 1.5rem;
+    box-shadow: 1px 1px 11px 2px #c7c7c769;
+}
+
+#faq .accordion .card .card-header {
+    border: none;
+    padding: 0;
+}
+
+#faq .accordion .card .card-header button {
+    background: #ffffff;
+    color: #fff;
+    border-color: white!important;
+    font-size: 2rem;
+    width: 100%;
+    padding: 1rem 0;
+    color: black;
+    border: 0 solid !important;
+}
+
+#faq .accordion .card .card-header button::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f00d';
+    position: absolute;
+    right: 35px;
+    font-size: 17px;
+    background: #e0e0e0;
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#faq .accordion .card .card-header button span {
+    display: block;
+    margin: 0 4rem 0 1.5rem;
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#faq .accordion .card .card-header button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+#faq .accordion .card .card-header button.collapsed {
+    background: #fff;
+    color: #000;
+}
+
+#faq .accordion .card .card-header button.collapsed::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f067';
+    position: absolute;
+    right: 35px;
+    font-size: 17px;
+    background: #e0e0e0;
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#faq .accordion .card .card-body {
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    line-height: 155%;
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#sales_faq {
+    overflow: hidden;
+}
+
+#sales_faq .shp-1 {
+    position: absolute;
+    left: -94%;
+    height: 600px;
+    width: 100%;
+}
+
+#sales_faq .shp-2 {
+    position: absolute;
+    right: -94%;
+    height: 600px;
+    width: 100%;
+}
+
+#faq .support-text {
+    font-size: 1.6rem;
+    letter-spacing: 0.05rem;
+    margin: 0;
+}
+
+.profile-details {
+    margin-top: 20%!important;
+}
+
+#sales_about .owl-nav button i {
+    color: white;
+    font-size: 27px;
+}
+
+#sales_about .owl-nav {
+    width: 55px;
+    background: #91bf20;
+    display: grid;
+    position: absolute;
+    right: -65px;
+    top: 82%;
+    font-size: 12px!important;
+}
+
+#sales_about .owl-prev {
+    margin-top: 12px;
+}
+
+#sales_about .owl-next {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#sales_about .profile-details .about-detail {
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #8E8E8E;
+}
+
+#sales_about .item {
+    width: 100%!important;
+}
+
+@font-face {
+    font-family: g-bold;
+    src: url('../font/ITCGaramondStd-Bd.otf');
+}
+
+@font-face {
+    font-family: g-bold-narrow;
+    src: url('../font/ITCGaramondStd-BkNarrow.otf');
+}
+
+#sales_bonus h1 {
+    font-family: 'g-bold';
+    font-size: 7vw;
+}
+
+#sales_bonus p {
+    font-family: 'Poppins';
+    font-family: 300;
+    font-size: 28px;
+}
+
+.number {
+    font-family: 'g-bold';
+    font-size: 6vw;
+    color: #fff;
+    line-height: 75px;
+    margin-bottom: 0;
+}
+
+.lables {
+    font-family: ' g-bold-narrow';
+    font-size: 2vw;
+    color: #fff;
+}
+
+.why_point li p {
+    color: white;
+}
+
+.this_is_why_img {
+    position: relative;
+    z-index: 111;
+    bottom: -106px;
+    left: 5px;
+}
+
+.f-5vw {
+    font-size: 5vw;
+}
+
+.why_shadow {
+    box-shadow: -1px 3px 6px 3px #000000a1;
+    padding: 2% 5%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.btn-green-size {
+    padding: 2% 4%;
+}
+
+.py-6p {
+    padding: 6% 0;
+}
+
+.py-10p {
+    padding: 10% 0;
+}
+
+.f-26 {
+    font-size: 26px;
+}
+
+#sales-testimonial .categories {
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+#sales-testimonial .owl-item {
+    padding-top: 36px;
+}
+
+.slider-img {
+    width: 100px!important;
+    height: 100px!important;
+}
+
+#sales-testimonial {
+    background-image: url('../images/testimonial.png');
+    background-size: cover;
+    background-position: center;
+    padding: 5% 0;
+}
+
+.owl-nav button i {
+    color: white;
+    font-size: 40px;
+}
+
+.px-4p {
+    padding: 0 4%;
+}
+
+#sales-testimonial .owl-prev {
+    position: absolute;
+    top: 50%;
+    left: -12px;
+}
+
+#sales-testimonial .owl-next {
+    position: absolute;
+    top: 50%;
+    right: -12px;
+}
+
+.gigs-body {
+    padding: 6% 5%;
+    height: 270px;
+}
+
+.gap {
+    margin-bottom: 7%;
+}
+
+.step-point {
+    margin-bottom: 4%;
+}
+
+.step-point h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 1%;
+    color: #495057;
+}
+
+.step-point .bullet {
+    background-color: #133462;
+    max-width: 104%;
+    padding: 4px 8px;
+    height: 1px;
+    border-radius: 100%;
+    margin-right: 3%;
+    font-size: 5px;
+    position: relative;
+    top: -9px;
+}
+
+.step-point p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 0;
+    color: #898B8D;
+}
+
+.quotes {
+    position: absolute;
+    top: -22px;
+    width: 65px;
+    height: 65px;
+    left: 38px;
+    font-size: 30px;
+    background: #91bf20;
+    color: white;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+}
+
+.filter-gray {
+    filter: invert(75%) sepia(8%) saturate(8%) hue-rotate(345deg) brightness(79%) contrast(97%);
+}
+
+.header-news {
+    background-color: #FF725E;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#sales_stats .dollar::before {
+    content: "$";
+    display: inline-block;
+}
+
+
+/* ******************************* Bg second step area ************************** */
+
+.line-2 {
+    width: 150px;
+    height: 8px;
+    background-image: -moz-linear-gradient(to right, #00295E, #003E8E);
+    background-image: -o-linear-gradient(to right, #00295E, #003E8E);
+    background-image: -webkit-linear-gradient(to right, #00295E, #003E8E);
+    background-image: linear-gradient(to right, #00295E, #003E8E);
+    margin-bottom: 10px;
+}
+
+#reviews-sales ul li {
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #495057;
+    margin-bottom: 25px;
+}
+
+
+/* ******************************* SALES RESPONSIVE ***************************** */
+
+@media screen and (max-width:1199px) {
+    .img-5 {
+        bottom: -13%!important;
+        right: -1%!important;
+    }
+    .f-24 {
+        font-size: 20px;
+    }
+    .f-74px {
+        font-size: 3.8vw;
+    }
+    .gigs-body {
+        padding: 6% 5%;
+        height: 351px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .img-5 {
+        bottom: -13%!important;
+        right: -1%!important;
+    }
+    .f-32px {
+        font-size: 25px;
+    }
+    .step-point h3 {
+        font-size: 28px;
+    }
+    .step-point p {
+        font-size: 20px;
+    }
+    .f-26 {
+        font-size: 20px;
+    }
+    #faq .accordion .card .card-header button span {
+        font-size: 22px;
+    }
+    #faq .accordion .card .card-body {
+        font-size: 16px;
+        font-weight: 200;
+    }
+}
+
+@media screen and (max-width:991px) {
+    #sales_stats {
+        padding: 32% 0 6% 0px;
+    }
+    #sales_about .owl-nav {
+        right: -54px;
+        top: 82%;
+    }
+    .img-6 {
+        width: 100px;
+    }
+    .img-5 {
+        width: 136px;
+    }
+    .img-4 {
+        width: 149px!important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .f-74px {
+        font-size: 7vw;
+    }
+    .f-78px {
+        font-size: 5vw;
+    }
+    .f-5vw {
+        font-size: 8vw;
+    }
+    .number {
+        font-size: 11vw;
+    }
+    .lables {
+        font-size: 4vw;
+    }
+    #sales_bonus h1 {
+        font-size: 11vw;
+    }
+    .bg-profile-detail-img img {
+        width: 200px!important;
+        height: 200px;
+        border-radius: 100%;
+        background-color: #ced3e6;
+        object-fit: cover;
+        object-position: top;
+        margin: 0 auto;
+    }
+    .profile-details {
+        margin-top: 5%!important;
+        text-align: center;
+    }
+    #sales_about .profile-details .green-line {
+        margin: 0 auto;
+    }
+    #sales_about .owl-nav {
+        right: 43%;
+        top: 100%;
+    }
+    #sales_about .owl-nav {
+        width: 100px;
+        background: #91bf20;
+        display: flex;
+    }
+    #sales_about .owl-next {
+        margin-top: 7px;
+        margin: 7px 13px;
+        margin-bottom: 7px;
+    }
+    #sales_about .owl-prev {
+        margin-top: 7px;
+        margin: 7px 13px;
+        margin-bottom: 7px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .px-4p {
+        padding: 0 10%;
+    }
+    #sales-testimonial .owl-prev {
+        position: absolute;
+        top: 50%;
+        left: 17px;
+    }
+    .f-20 {
+        font-size: 15px;
+    }
+    #sales-testimonial .owl-next {
+        position: absolute;
+        top: 50%;
+        right: 17px;
+    }
+    .why_shadow {
+        box-shadow: -1px 3px 6px 3px #000000a1;
+        padding: 5% 5%;
+    }
+    .m-sm-136 {
+        margin-top: 200px;
+    }
+    .number {
+        font-family: 'Poppins';
+        font-size: 14vw;
+        color: #fff;
+        font-weight: 800;
+        line-height: 75px;
+        margin-bottom: 0;
+    }
+    #sales-testimonial {
+        background-image: url(http://127.0.0.1:8000/site/images/testimonial.png);
+        background-size: cover;
+        background-position: center;
+        padding: 10% 0!important;
+    }
+    #sales_about {
+        padding: 18% 0px!important;
+    }
+    #sales_bonus p {
+        font-family: 'Poppins';
+        font-family: 300;
+        font-size: 20px;
+    }
+    .bg-hero-left {
+        padding: 4% 0!important;
+    }
+    .section-secondary-space {
+        margin-bottom: 13%;
+    }
+    #sales_about .owl-nav {
+        right: 37%;
+        top: 100%;
+    }
+    .gigs-body {
+        padding: 6% 5%;
+        height: unset;
+    }
+    #sales_about .profile-details .about-detail {
+        font-size: 17px;
+    }
+    #faq .accordion .card .card-header button span {
+        font-size: 17px;
+    }
+    .f-78px {
+        font-size: 7vw;
+    }
+    .step-point h3 {
+        font-size: 23px;
+    }
+    .lables {
+        font-size: 6vw;
+    }
+    .btn-green-size {
+        padding: 2% 4%;
+        font-size: 14px!important;
+    }
+    .f-60px {
+        font-size: 6.8vw;
+    }
+    .f-40px {
+        font-size: 5.1vw;
+    }
+    .f-42 {
+        font-size: 5.6vw;
+    }
+}
+
+
+/* ###################### [end] ####################### */

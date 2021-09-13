@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'pnbold';
+    src: url('../fonts/ProximaNova-Bold.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'pnextrabold';
+    src: url('../fonts/ProximaNova-Extrabld.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'pnlight';
+    src: url('../fonts/ProximaNova-Light.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'pnregular';
+    src: url('../fonts/ProximaNova-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'pnsemibold';
+    src: url('../fonts/ProximaNova-Semibold.ttf') format('ttf');
+}
+
