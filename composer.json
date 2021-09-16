@@ -8,7 +8,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.3.0|^8.0",
+        "php": "^7.2|^8.0",
         "aranyasen/laravel-adminer": "^2.0",
         "doctrine/dbal": "^3.1",
         "fabpot/goutte": "^4.0",
@@ -27,6 +27,7 @@
         "sendgrid/sendgrid": "~7",
         "spatie/laravel-backup": "^6.11",
         "spatie/laravel-permission": "^3.11",
+        "stripe/stripe-php": "^7.95",
         "unisharp/laravel-filemanager": "^2.2",
         "zanysoft/laravel-zip": "^1.0"
     },

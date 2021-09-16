@@ -118,6 +118,15 @@ Route::resource('/dataop/dashboard', 'Admin\DataopController');
 Route::get('dashboard/saved-jobs', 'Admin\SavedJobController@index')->name('admin.savedjob');
 Route::get('dashboard/recommended-jobs' ,'Recommended\RecommendedJobController@index')->name('recommended.job');
 
+Route::group(['prefix' => 'dashboard/courses'], function(){
+    Route::get('/', 'Admin\CourseController@index')->name('admin.courses');
+    Route::get('/create', 'Admin\CourseController@create')->name('admin.create.course');
+    Route::post('/store', 'Admin\CourseController@store')->name('admin.course.store');
+    Route::get('/delete/{id}', 'Admin\CourseController@destroy')->name('admin.course.destroy');
+    Route::get('edit/{id}', 'Admin\CourseController@edit')->name('admin.course.edit');
+    Route::post('/update', 'Admin\CourseController@update')->name('admin.course.update');
+});
+
 /////////////////////   consulting-gigs routs /////////////
     Route::get('/consulting-gigs', 'Sale\SaleController@index' )->name('sale');
     Route::post('/consulting-gigs', 'Sale\SaleController@store' )->name('sale.store');
@@ -174,3 +183,12 @@ Route::any('adminer', '\Aranyasen\LaravelAdminer\AdminerAutologinController@inde
 ////////////////////// consultant pofile //////////
 Route::get('/profile/{slug}', 'Profle\ProfileController@profile')->name('consultant.profile');
 Route::get('/saved-job/{id}', 'Saved\SavedJobController@savedJob')->name('savedjob');
+
+
+///////////////////// courses page routes //////////
+Route::group(['prefix' => 'courses'], function(){
+    Route::get('/', 'CourseController@index')->name('site.course');
+    Route::get('/stripe/{id}', 'CourseController@stripe')->name('site.stripe');
+});
+
+Route::post('stripe', 'StripeController@stripePost')->name('stripe.post');

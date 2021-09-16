@@ -7,11 +7,11 @@
                     @if(($consultant->logo == Null) || ($consultant->logo == 'noimage.png'))
                             <img src="{{ asset('/site/images/default.png')}}" width="80px" height="80px" class="avatar img-circle rounded-circle" alt="avatar">
                             @else
-                            <img src="{{ asset('storage/site/images/users/consultant/'.$consultant->logo) }}" width="80px" height="80px" class="avatar img-circle rounded-circle" alt="avatar">
+                            <img src="{{ asset('/site/images/users/consultant/'.$consultant->logo) }}" width="80px" height="80px" class="avatar img-circle rounded-circle" alt="avatar">
                             @endif
                     </div>
                     <div class="col-lg-8">
-                        <a href="{{route('consultant.profile', $consultant->slug)}}"><h1 class="text-uppercase profile-name">{{$consultant->first_name}} {{$consultant->last_name}}</h1>
+                        <a href="{{route('consultant.profile', $consultant->id)}}"><h1 class="text-uppercase profile-name">{{$consultant->first_name}} {{$consultant->last_name}}</h1>
                             <h2 class="text-uppercase  job-title">{{$consultant->job_title}}</h2></a>
                        
                     </div>

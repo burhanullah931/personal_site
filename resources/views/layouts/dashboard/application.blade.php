@@ -20,7 +20,7 @@
       <link href="{{asset('admin/dashboard/assets/demo/demo.css')}}" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
 
-
+<link rel="stylesheet" href="https://cdn.datatables.net/1.11.1/css/jquery.dataTables.min.css">
       {{-- style sheets and head --}}
       @yield('styles')
    </head>
@@ -54,7 +54,15 @@
       <script src="{{asset('admin/dashboard/assets/js/core/popper.min.js')}}"></script>
       <script src="{{asset('admin/dashboard/assets/js/core/bootstrap-material-design.min.js')}}"></script>
       <script src="{{asset('admin/dashboard/assets/js/plugins/perfect-scrollbar.jquery.min.js')}}"></script>
+      <script src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js"></script>
+      <script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+      <script>
+          $(document).ready(function() {
+                $('#example').DataTable();
+            });
+        </script>
 
       {{-- <!-- Plugin for the momentJs  -->
       <script src="{{asset('admin/dashboard/assets/js/plugins/moment.min.js')}}"></script>

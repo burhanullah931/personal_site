@@ -16,7 +16,7 @@
         $user=Auth::user();
     @endphp
         <div class="sidebar-wrapper">
-         @role('superadmin|consultant')
+            @role('consultant|superadmin')
             <div class="user">
                 <div class="photo">
                     <img src="{{ asset('storage/site/images/users/'.$user->logo) }}" />
@@ -55,6 +55,8 @@
                     </div>
                 </div>
             </div>
+            @endrole
+            @role('consultant')
             <ul class="nav">
                <li class="nav-item @if (Route::is('dashboard')) active @endif ">
                    <a class="nav-link" href="{{ route('dashboard') }}">
@@ -62,14 +64,14 @@
                        <p> Dashboard </p>
                    </a>
                </li>
-               <li class="nav-item ">
-                  <a class="nav-link {{request()->segment(2) == 'saved-jobs' ? 'active' : ''}}" href="{{route('admin.savedjob')}}">
+               <li class="nav-item {{request()->segment(2) == 'saved-jobs' ? 'active': ''}} ">
+                  <a class="nav-link" href="{{route('admin.savedjob')}}">
                       <i class="material-icons">dashboard</i>
                       <p> Saved Jobs </p>
                   </a>
               </li>
-              <li class="nav-item ">
-                <a class="nav-link {{request()->segment(2) == 'recommended-jobs' ? 'active' : ''}}" href="{{route('recommended.job')}}">
+              <li class="nav-item {{request()->segment(2) == 'recommended-jobs' ? 'active' : ''}}">
+                <a class="nav-link" href="{{route('recommended.job')}}">
                     <i class="material-icons">dashboard</i>
                     <p> Recommended Jobs </p>
                 </a>
@@ -163,6 +165,36 @@
                 </ul>
             </div>
          @endrole
+         <div class="user">
+            <div class="user-info ">
+                <a data-toggle="collapse" href="#resources" class="username" aria-expanded="true">
+                    <span>
+                        Resources & Free Cources
+                        <b class="caret"></b>
+                    </span>
+                </a>
+                <div class="collapse active" id="resources">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="sidebar-normal"> Registered Cources </span>
+                            </a>
+                        </li>
+                        <li class="nav-item {{request()->segment(2) =='courses' ? 'active' : ''}}">
+                            <a class="nav-link"
+                                href="{{route('admin.courses')}}">
+                                <span class="sidebar-normal"> Register a new Cource </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span class="sidebar-normal"> Download pdfs </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         </div>
     @if($user->hasrole('dataop'))
         <div class="sidebar-wrapper">
