@@ -105,7 +105,7 @@ max-width: 1000px !important;
                             @if(($consultant->logo == Null) || ($consultant->logo == 'noimage.png'))
                             <img src="{{ asset('/site/images/default.png')}}" width="200px" class="avatar rounded-circle" alt="avatar">
                             @else
-                            <img src="{{ asset('storage/site/images/users/consultant/'.$consultant->logo) }}" width="150px" height="150px" class="avatar rounded-circle img-main" alt="avatar">
+                            <img src="{{ asset('site/images/users/consultant/'.$consultant->logo) }}" width="150px" height="150px" class="avatar rounded-circle img-main" alt="avatar">
                             @endif
                             @if($consultant->active) <i class="active-status fas fa-circle text-success"></i>
                                         @endif
@@ -386,6 +386,8 @@ max-width: 1000px !important;
 @section('scripts')
 <script  src="{{asset('/ps/asset/js/jstars.min.js')}}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.6/cropper.js"></script>
+{{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> --}}
+
    <script>
 
 var $modal = $('#modal');
@@ -439,7 +441,7 @@ var base64data = reader.result;
 $.ajax({
 type: "POST",
 dataType: "json",
-url: "/crop-image-upload",
+url: "{{url('/crop-image-upload')}}",
 data: {'_token': $('meta[name="csrf-token"]').attr('content'), 'image': base64data},
 success: function(data){
 console.log(data);

@@ -9,4 +9,9 @@ class Course extends Model
 {
     use HasFactory;
     protected $guarded = [];
+
+    public function lectures()
+    {
+        return $this->hasMany('App\Lecture');
+    }
 }

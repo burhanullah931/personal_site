@@ -45,11 +45,12 @@
                           <td>{{$course->autdor}}</td>
                           <td>{{$course->price}}</td>
                           <td>{{$course->sale_price}}</td>
-                          <td style="width:10%;">{{$course->video_link}}</td>
+                          <td >{{$course->video_link}}</td>
                           <td><span class="badge badge-pill p-2 {{$course->status == 1 ? 'badge-success' : 'badge-warning'}}">{{$course->status == 1 ? 'Paid' : 'Free'}}</span></td>
                           <td>
-                            <a href="{{route('admin.course.edit', $course->id)}}" class="btn btn-info btn-sm">Edit</a>
-                            <button data-course-id="{{$course->id}}" class="btn btn-danger btn-sm delete-course">Delete</button>
+                            <a href="{{route('admin.course.edit', $course->id)}}" class="btn btn-info btn-sm"><i class="material-icons">edit</i></a>
+                            <a href="{{route('admin.course.lecture', $course->id)}}" class="btn btn-primary btn-sm">Lectures</a>
+                            <button data-course-id="{{$course->id}}" class="btn btn-danger btn-sm delete-course"><i class="material-icons">delete</i></button>
                           </td>
                         </tr>
                       @endforeach
