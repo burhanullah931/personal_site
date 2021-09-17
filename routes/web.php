@@ -36,7 +36,7 @@ Route::group(['middleware' => ['auth']], function() {
 
 
 Route::resource('/consultant', 'Consultant\ConsultantController')->middleware(['role:consultant']);
-Route::post('/crop-image-upload', 'Consultant\ConsultantController@uploadCropImage')->middleware(['role:consultant']);
+Route::post('/crop-image-upload', 'Consultant\ConsultantController@uploadCropImage')->middleware(['role:consultant'])->name('crop-image');
 Route::get('/consultants/editor/', 'Consultant\ConsultanteditController@editshow')->name('consultants.page');
 Route::post('/consultants/editor/form', 'Consultant\ConsultanteditController@editform')->name('consultants.edit');
 Route::post('/consultants/editor/update', 'Consultant\ConsultanteditController@updateprofile')->name('consultants.update');
@@ -125,6 +125,10 @@ Route::group(['prefix' => 'dashboard/courses'], function(){
     Route::get('/delete/{id}', 'Admin\CourseController@destroy')->name('admin.course.destroy');
     Route::get('edit/{id}', 'Admin\CourseController@edit')->name('admin.course.edit');
     Route::post('/update', 'Admin\CourseController@update')->name('admin.course.update');
+    Route::get('/lecture/delete/{id}', 'Admin\CourseController@lectureDestroy')->name('admin.lecture.destroy');
+    Route::get('/lectures/{id}', 'Admin\CourseController@lectures')->name('admin.course.lecture');
+    Route::post('/lecture/update', 'Admin\CourseController@lectureUpdate')->name('admin.lecture.update');
+    Route::post('lecture/store', 'Admin\CourseController@lectureStore')->name('admin.lecture.store');
 });
 
 /////////////////////   consulting-gigs routs /////////////

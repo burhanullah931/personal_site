@@ -15,7 +15,7 @@
             <h4 class="card-title">Add New Course</h4>
           </div>
           <div class="card-body">
-            <form action="{{route('admin.course.store')}}" method="POST">
+            <form action="{{route('admin.course.store')}}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="form-group">
                     <label for="">Title</label>
@@ -55,6 +55,12 @@
                     </select>
                 </div>
                 <span class="text-danger">{{$errors->first('status')}}</span>
+                <div class="form-group">
+                  <button class="btn btn-info mt-5 add-lecture">Add Lecture</button>
+                </div>
+                <div class="row addLecutre">
+                  
+                </div>
                 <div class="col mt-5">
                   <button class="btn btn-primary pull-right">Register</button>
 
@@ -92,9 +98,23 @@
           searchPlaceholder: "Search records",
         }
       });
+      ///////// lecture add //////
+      var i = 0;
+      $('.add-lecture').click(function(e){
+        e.preventDefault();
+         i = i+1;
+        $(document).ready(function() {
+				CKEDITOR.replace("ck_description"+i);
+			});
+        $('.addLecutre').append('<div id="div'+i+'" class="col-md-6 border mt-4 rounded"> <a class="btn-sm text-white btn btn-danger pull-right" onclick="remove('+i+')">Remove</a> <div class="form-group" style="margin-top:50px;"> <label for="">Title</label> <input type="text" name="lect_title[]" class="form-control" required> </div> <div class="form-group"> <label for="">Description</label> <textarea name="lect_description[]" id="ck_description'+i+'" class=" form-control"></textarea> </div> <div class="form-group"> <label for="">Video Link</label> <input type="url" name="lect_video_link[]" class="form-control" required> </div> <div class="form-group"> <label for="">Banner</label> <input type="file" name="lect_banner[]" class="form-control" style="position:unset !important; opacity:1 !important"> </div> </div>')
+      });
+      
+    });
+    function remove(which){
+          $('#div'+which).remove();
+        }
 
     
-    });
     
   </script>
    <script>

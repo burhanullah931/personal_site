@@ -66,7 +66,7 @@ class ConsultanteditController extends Controller
 
 
 
-            $path = $request->file('logo')->storeAs('public/site/images/users/consultant/', $fileNameToStore);
+            $path = $request->file('logo')->storeAs('public/site/images/users/consultant', $fileNameToStore);
             
 
         }
@@ -91,7 +91,7 @@ class ConsultanteditController extends Controller
 
             {
 
-                Storage::delete('public/site/images/users/consultant/'.$consultant->logo);
+                Storage::delete('public/site/images/users/consultant'.$consultant->logo);
 
             }
 
