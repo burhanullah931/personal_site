@@ -68,5 +68,9 @@ class User extends Authenticatable
    {
        return $this->belongsToMany('App\Jobs' , 'user_jobs' , 'user_id', 'job_id');
    }
+   public function orderCourses()
+   {
+       return $this->hasMany('App\OrderCourse');
+   }
    
 }

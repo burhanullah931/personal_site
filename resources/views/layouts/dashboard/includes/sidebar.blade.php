@@ -167,7 +167,7 @@
          @endrole
          <div class="user">
             <div class="user-info ">
-                <a data-toggle="collapse" href="#resources" class="username" aria-expanded="true">
+                <a data-toggle="collapse" href="#resources" class="username" >
                     <span>
                         Resources & Free Cources
                         <b class="caret"></b>
@@ -175,17 +175,21 @@
                 </a>
                 <div class="collapse active" id="resources">
                     <ul class="nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
+                        @role('consultant')
+                        <li class="nav-item {{request()->segment(3) == 'registered-courses' ? 'active' : ''}}">
+                            <a class="nav-link" href="{{route('admin.registered.course')}}">
                                 <span class="sidebar-normal"> Registered Cources </span>
                             </a>
                         </li>
+                        @endrole
+                        @role('superadmin')
                         <li class="nav-item {{request()->segment(2) =='courses' ? 'active' : ''}}">
                             <a class="nav-link"
                                 href="{{route('admin.courses')}}">
                                 <span class="sidebar-normal"> Register a new Cource </span>
                             </a>
                         </li>
+                        @endrole
                         <li class="nav-item">
                             <a class="nav-link" href="#">
                                 <span class="sidebar-normal"> Download pdfs </span>
