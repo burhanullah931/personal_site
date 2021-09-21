@@ -169,16 +169,16 @@
             <div class="user-info ">
                 <a data-toggle="collapse" href="#resources" class="username" >
                     <span>
-                        Resources & Free Cources
+                        Resources & Free Courses
                         <b class="caret"></b>
                     </span>
                 </a>
-                <div class="collapse active" id="resources">
+                <div class="collapse active {{request()->segment(2) == 'courses' ? 'show' : ''}}" id="resources">
                     <ul class="nav">
                         @role('consultant')
                         <li class="nav-item {{request()->segment(3) == 'registered-courses' ? 'active' : ''}}">
                             <a class="nav-link" href="{{route('admin.registered.course')}}">
-                                <span class="sidebar-normal"> Registered Cources </span>
+                                <span class="sidebar-normal"> Registered Courses </span>
                             </a>
                         </li>
                         @endrole
@@ -186,7 +186,7 @@
                         <li class="nav-item {{request()->segment(2) =='courses' ? 'active' : ''}}">
                             <a class="nav-link"
                                 href="{{route('admin.courses')}}">
-                                <span class="sidebar-normal"> Register a new Cource </span>
+                                <span class="sidebar-normal"> Register a new Course </span>
                             </a>
                         </li>
                         @endrole
