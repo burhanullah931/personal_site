@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Course;
 use App\Lecture;
+use App\OrderCourse;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\CourseRequest;
@@ -181,5 +182,19 @@ class CourseController extends Controller
         }
         $lecture->save();
         return redirect()->back()->with('success', 'Lecture successfully created');
+    }
+
+    public function registerCourses()
+    {
+        $courses = Course::whereHas('orderCourses', function($query){
+            $query->where('user_id', auth()->user()->id);
+        })->get();
+        return view('admin.course.registered_course', compact('courses'));
+    }
+    public function orderLectures($id)
+    {
+        $lectures = Lecture::where('course_id', $id)->get();
+        $course = Course::findOrFail($id);
+        return view('admin.course.user_lectures', compact('lectures', 'course'));
     }
 }

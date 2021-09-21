@@ -129,6 +129,8 @@ Route::group(['prefix' => 'dashboard/courses'], function(){
     Route::get('/lectures/{id}', 'Admin\CourseController@lectures')->name('admin.course.lecture');
     Route::post('/lecture/update', 'Admin\CourseController@lectureUpdate')->name('admin.lecture.update');
     Route::post('lecture/store', 'Admin\CourseController@lectureStore')->name('admin.lecture.store');
+    Route::get('/registered-courses', 'Admin\CourseController@registerCourses')->name('admin.registered.course');
+    Route::get('lectures/order-lectures/{id}', 'Admin\CourseController@orderLectures')->name('admin.user.lectures');
 });
 
 /////////////////////   consulting-gigs routs /////////////
